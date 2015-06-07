@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: #000000;
+
+    background-image: url(logo/2.jpg);
+
+    background-position: center top;
+
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: 'beer_money';
+    src: url('fonts/beer_money.eot');
+    src: url('fonts/beer_money.eot?#iefix') format('embedded-opentype'),
+    url('fonts/beer_money.woff') format('woff'),
+    url('fonts/beer_money.ttf') format('truetype');
+}
+.photo{
+    font-family: 'beer_money';
+    color: white;
+    position: absolute;
+    margin: 15 0 0 100;
+    font-size: 35px;
+}
+.tt{
+    width: 60px;
+    position: absolute;
+    margin: 8 0 0 20;
+}
+.header li{
+    display: inline;
+    list-style:none;
+    padding: 0 40 0 0 ;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 28px;
+
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    background: #000000;
+    margin: 0 0 80 0 ;
+}
+.nav{
+    text-align: center;
+    padding: 20 0 0 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.3s linear;
+}
+a:hover{
+    opacity: 1;
+}
+.text{
+    margin: 0 auto;
+    width: 80%;
+    background: #000000;
+    opacity: 0.8;
+    color:white;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 5 px solid #000000;
+    border-radius: 10px;
+}
+.text B {
+    color: #F5C625;
+}
+.biography{
+ margin: 0 0 0 80px;
+    font-size: 80px;
+    color: #000000;
+    font-family: sans-serif;
+    opacity:0.6;
+
+}
